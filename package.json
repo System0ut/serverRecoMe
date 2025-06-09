@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env DB_HOST=recomedb.czsywg8y01ag.eu-north-1.rds.amazonaws.com DB_USER=admin_db DB_PASSWORD=recome1234 DB_NAME=recomedb DB_PORT=5432 AWS_ACCESS_KEY_ID=AKIAYQYUA5I7DLSLR7JR AWS_SECRET_ACCESS_KEY=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 AWS_REGION=eu-north-1 S3_BUCKET_NAME=recomeimages node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  }
+}
